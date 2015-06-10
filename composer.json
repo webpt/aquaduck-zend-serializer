@@ -1,0 +1,32 @@
+{
+    "name": "webpt/aquaduck-zend-serializer",
+    "authors": [
+        {
+            "name": "Tim Klever",
+            "email": "tim.klever@webpt.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webpt\\Aquaduck\\Zend\\Serializer\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.webpt.com:niagara/aquaduck.git"
+        }
+    ],
+    "require": {
+        "webpt/aquaduck": "^1.0@dev",
+        "zendframework/zend-serializer": "2.0.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
